@@ -20,10 +20,10 @@ class Solution(object):
         :type numRows: int
         :rtype: str
         """
-        # hash = {}
-        # for i in range(numRows):
-        # 	for idx,onestr in s:
-        # 		if idx//numRows+1 == i:
-        # 			hash[i] = onestr
-        # 			i += numRows
-        # return str[i in hash]
+        hash = {}
+        for i in range(numRows):
+        	for idx,onestr in s:
+        		if idx//numRows+1 == i:
+        			hash[i] = onestr
+        			i += numRows
+        return str[i in hash]

@@ -11,4 +11,3 @@ class Solution(object):
                 print_dir_content(self, dirChildPath)
             else:
                 print(dirChildPath)
-
